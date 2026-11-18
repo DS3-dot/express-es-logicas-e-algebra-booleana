@@ -1,0 +1,56 @@
+'''
+---->Operadores lógicos <----
+'''
+#not
+x = True
+y = False
+print(not x)
+print(not y)
+#and
+x = True
+y = False
+print(x and y)
+#or
+x = True
+y = False
+print(x or y)
+'''
+Ordem de precedência dos operadores:
+1. Parênteses
+2. Potenciação ou radiciação
+3. Multiplicação ou divisão
+4. Adição ou subtração
+5. Operadores relacionais
+6. Op. lógico NOT
+7. Op. lógico AND
+8. Op. lógico OR
+'''
+x=10
+y=6
+result= ( not x > y)
+print(result)# not x > y = False
+#//////////////////////////////////////
+x=10
+y=6
+z=12.5
+result=(x>y) and (z==y)
+print(result)# True and False = False
+#////////////////////////////////////////
+x=10
+y=6
+z=12.5
+result= x > y or not z == y and y != y+z/x #7.25
+#True or not False and True
+#True or True and True
+# > True
+print(result)
+#////////////////////////////////////////
+#Exc.
+n1=float(input('Digite a nota da primeria matéria:'))
+n2=float(input('Digite a nota da segunda  matéria:'))
+n3=float(input('Digite a nota da terceira matéria:'))
+if (n1>=7 and n2>=7 and n3>=7):
+    print('O aluno passou de ano!')
+else:
+    print('O aluno não passou de ano!')
+
