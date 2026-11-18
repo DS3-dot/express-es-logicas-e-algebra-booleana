@@ -14,22 +14,12 @@ print(x and y)
 x = True
 y = False
 print(x or y)
-'''
-Ordem de precedência dos operadores:
-1. Parênteses
-2. Potenciação ou radiciação
-3. Multiplicação ou divisão
-4. Adição ou subtração
-5. Operadores relacionais
-6. Op. lógico NOT
-7. Op. lógico AND
-8. Op. lógico OR
-'''
+#//////////////////////////////////////
 x=10
 y=6
 result= ( not x > y)
 print(result)# not x > y = False
-#//////////////////////////////////////
+#///////////////////////////////////////
 x=10
 y=6
 z=12.5
