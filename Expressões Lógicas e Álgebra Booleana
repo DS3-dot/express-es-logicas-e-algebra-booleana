@@ -4,27 +4,32 @@
 #not
 x = True
 y = False
-print(not x)
-print(not y)
+print(not x) # False
+print(not y) # True
+
 #and
 x = True
 y = False
-print(x and y)
+print(x and y) #result: False
+
 #or
 x = True
 y = False
-print(x or y)
+print(x or y) #result: True
+
 #//////////////////////////////////////
 x=10
 y=6
 result= ( not x > y)
-print(result)# not x > y = False
+print(result) #result: False
+
 #///////////////////////////////////////
 x=10
 y=6
 z=12.5
-result=(x>y) and (z==y)
-print(result)# True and False = False
+result=(x>y) and (z==y) # True and False
+print(result) #result: False
+
 #////////////////////////////////////////
 x=10
 y=6
@@ -32,8 +37,9 @@ z=12.5
 result= x > y or not z == y and y != y+z/x #7.25
 #True or not False and True
 #True or True and True
-# > True
+#result: True
 print(result)
+
 #////////////////////////////////////////
 #Exc.
 n1=float(input('Digite a nota da primeria matéria:'))
