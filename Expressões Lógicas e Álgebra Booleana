@@ -13,9 +13,10 @@ y = False
 print( x and y ) #result: False
 '''
 and:
-True + True = True
-True + False = False
-False + True = False
+  x      y     x and y
+True + True =   True
+True + False =  False
+False + True =  False
 False + False = False
 '''
 #-------------------------------------------------
@@ -25,9 +26,10 @@ y = False
 print( x or y ) #result: True
 '''
 or:
-True + True = True
-True + False = True
-False + False = False
+  x      y      x and y
+True + True =    True
+True + False =   True
+False + False =  False
 '''
 #-------------------------------------------------
 x = 10
